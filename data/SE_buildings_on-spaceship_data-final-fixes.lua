@@ -15,8 +15,8 @@ end
 
 if mods["space-exploration"] and mods["Krastorio2"] then
   if settings.startup["preserve-hypercooler-recipes"].value then
-    -- in addition, the particle accelerator & thermal radiator recipes get disabled when grounded. causes some issues
-    -- when landing because it can delete ingredients currently active
+    -- in addition, thermal radiator recipes get disabled when grounded. 
+    -- This causes some issues when landing because it can delete ingredients currently active
     local defaultSpaceRadiator = data.raw["assembling-machine"]["se-space-radiator"]
     local groundedSpaceRadiator = data.raw["assembling-machine"]["se-space-radiator-grounded"]
     groundedSpaceRadiator.crafting_categories = defaultSpaceRadiator.crafting_categories
@@ -27,11 +27,9 @@ if mods["space-exploration"] and mods["Krastorio2"] then
 end
 
 if mods["space-exploration"] and mods["Krastorio2"] then
-  if settings.startup["allow-hypercooler-on-spaceship"].value then
-    -- in addition, the particle accelerator & thermal radiator recipes get disabled when grounded. causes some issues
-    -- when landing because it can delete ingredients currently active
-
-    --particle accelerator
+  if settings.startup["preserve-particle-accelerator-recipes"].value then
+    -- in addition, particle-accelerator recipes get disabled when grounded. 
+    -- This causes some issues when landing because it can delete ingredients currently active
     local defaultAccelerator = data.raw["assembling-machine"]["se-space-particle-accelerator"]
     local groundedAccelerator = data.raw["assembling-machine"]["se-space-particle-accelerator-grounded"]
     groundedAccelerator.crafting_categories = defaultAccelerator.crafting_categories
