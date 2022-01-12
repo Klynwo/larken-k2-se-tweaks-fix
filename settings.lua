@@ -8,18 +8,6 @@ data:extend(
         },
         {
             type = "bool-setting",
-            name = "allow-k2-liquid-tanks-on-space-platform",
-            setting_type = "startup",
-            order = "liquid1",
-            default_value = true
-        }, -- {
-        --     type = "bool-setting",
-        --     name = "allow-k2-liquid-tanks-on-spaceship",
-        --     setting_type = "startup",
-        --     default_value = true
-        -- },
-        {
-            type = "bool-setting",
             name = "allow-long-space-underground-belt",
             setting_type = "startup",
             default_value = true

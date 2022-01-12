@@ -6,6 +6,7 @@ Date: 2022-01-12
   Changes:
     - Removed Lab Changes, as they are now part of the K2/SE integration
     - Removed the ability to place steel pipes in space, please use "Worm Underground Space Pipes" instead
+    - Removed the setting to place K2 storage tanks in space, this is now part of the K2/SE integration
     - More code cleanup
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.3
