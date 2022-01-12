@@ -48,12 +48,6 @@ data:extend(
         },
         {
             type = "bool-setting",
-            name = "allow-upgrade-singularity-lab",
-            setting_type = "startup",
-            default_value = true
-        },
-        {
-            type = "bool-setting",
             name = "allow-remove-tesseract-from-stabilizer",
             setting_type = "startup",
             order = "stabilizer-1",
