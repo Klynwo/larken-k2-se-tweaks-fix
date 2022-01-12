@@ -8,13 +8,6 @@ data:extend(
         },
         {
             type = "bool-setting",
-            name = "allow-steel-pipe-in-space",
-            setting_type = "startup",
-            order = "liquid2",
-            default_value = true
-        },
-        {
-            type = "bool-setting",
             name = "allow-k2-liquid-tanks-on-space-platform",
             setting_type = "startup",
             order = "liquid1",

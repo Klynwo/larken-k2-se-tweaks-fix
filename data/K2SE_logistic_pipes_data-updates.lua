@@ -13,22 +13,4 @@
       end
     end
   end
-
-  local se_space_pipe_to_ground_recipe = data.raw.recipe["se-space-pipe-to-ground"]
-  local pipe_to_ground_recipe = data.raw.recipe["pipe-to-ground"]
-  if se_space_pipe_to_ground_recipe and pipe_to_ground_recipe then
-    se_space_pipe_to_ground_recipe.result_count = pipe_to_ground_recipe.result_count
-  end
-
-  if settings.startup["allow-steel-pipe-in-space"].value then
-    local steelPipeUnderground = data.raw["pipe-to-ground"]["kr-steel-pipe-to-ground"]
-    if steelPipeUnderground then
-      steelPipeUnderground.se_allow_in_space = true
-    end
-
-    local steelPipe = data.raw["pipe"]["kr-steel-pipe"]
-    if steelPipe then
-      steelPipe.se_allow_in_space = true
-    end
-  end
 end

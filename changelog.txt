@@ -5,6 +5,7 @@ Date: 2022-01-12
     - Karoschl
   Changes:
     - Removed Lab Changes, as they are now part of the K2/SE integration
+    - Removed the ability to place steel pipes in space, please use "Worm Underground Space Pipes" instead
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.3
 Date: 2022-01-10
