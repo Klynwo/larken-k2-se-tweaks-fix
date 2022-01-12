@@ -1,19 +1,4 @@
 ﻿if mods["space-exploration"] and mods["Krastorio2"] then
-  if settings.startup["allow-hypercooler-on-spaceship"].value then
-    local allowed_collision_mask_values = {
-      "water-tile",
-      "ground-tile",
-      "item-layer",
-      "object-layer",
-      "player-layer"
-    }
-    -- remove the spaceship collision layer from the hypercooler
-    data.raw["assembling-machine"]["se-space-hypercooler"].collision_mask = allowed_collision_mask_values
-    data.raw["assembling-machine"]["se-space-hypercooler"].se_allow_in_space = true
-  end
-end
-
-if mods["space-exploration"] and mods["Krastorio2"] then
   if settings.startup["preserve-hypercooler-recipes"].value then
     -- in addition, thermal radiator recipes get disabled when grounded. 
     -- This causes some issues when landing because it can delete ingredients currently active

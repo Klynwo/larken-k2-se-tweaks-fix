@@ -89,12 +89,6 @@ data:extend(
         },
         {
             type = "bool-setting",
-            name = "allow-hypercooler-on-spaceship",
-            setting_type = "startup",
-            default_value = true
-        },
-        {
-            type = "bool-setting",
             name = "preserve-hypercooler-recipes",
             setting_type = "startup",
             default_value = true
