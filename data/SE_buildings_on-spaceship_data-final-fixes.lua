@@ -14,7 +14,7 @@
 end
 
 if mods["space-exploration"] and mods["Krastorio2"] then
-  if settings.startup["allow-hypercooler-on-spaceship"].value then
+  if settings.startup["preserve-hypercooler-recipes"].value then
     -- in addition, the particle accelerator & thermal radiator recipes get disabled when grounded. causes some issues
     -- when landing because it can delete ingredients currently active
     local defaultSpaceRadiator = data.raw["assembling-machine"]["se-space-radiator"]

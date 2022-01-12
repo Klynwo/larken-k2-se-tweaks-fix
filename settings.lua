@@ -86,10 +86,16 @@ data:extend(
             order = "matter-cube-2",
             default_value = 1000,
             allowed_values = {500, 1000, 1500, 2000, 3000}
-        }, -- SE Matter Ratio Tweaks
+        },
         {
             type = "bool-setting",
             name = "allow-hypercooler-on-spaceship",
+            setting_type = "startup",
+            default_value = true
+        },
+        {
+            type = "bool-setting",
+            name = "preserve-hypercooler-recipes",
             setting_type = "startup",
             default_value = true
         },
