@@ -101,6 +101,12 @@ data:extend(
         },
         {
             type = "bool-setting",
+            name = "vitamelange-matter-growth",
+            setting_type = "startup",
+            default_value = true
+        },
+        {
+            type = "bool-setting",
             name = "allow-matter-buildings-in-space",
             setting_type = "startup",
             default_value = false

@@ -8,6 +8,7 @@ Date: 2022-01-12
     - Removed the ability to place steel pipes in space, please use "Worm Underground Space Pipes" instead
     - Removed the setting to place K2 storage tanks in space, this is now part of the K2/SE integration
     - Removed the setting to place hypercoolers in space / on spaceships, this is now part of the K2/SE integration
+    - Since vitamelange is a living ore, vitamelange now created from matter in a more complex way (can be disabled in settings)
     - Added mod setting to preserve hypercooler recipes when landing
     - Added mod setting to preserve particle-accelerator recipes when landing
     - More code cleanup
